@@ -116,6 +116,20 @@
     line-height: 38px;
 }
 
+#page-home main ::after
+{
+    content: "";
+    position: fixed;
+    background: rgb(189, 138, 212);
+    top: 160px;
+    right: 0;
+    left: 0;
+    bottom:138px;
+    z-index: -1;  
+    
+    border-radius: 8px;
+}
+
 body::after
 {
     content: "";

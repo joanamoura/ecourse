@@ -88,11 +88,11 @@
     background-color: #0433BF;
 }
 
-#page-login .voltar-home a
+#page-create-point .voltar-home a
 {
     margin-top: -4px;
     margin-left: 12px;
-    
+
     display: flex;
     align-items: center;
 }

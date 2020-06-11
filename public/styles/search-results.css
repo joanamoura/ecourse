@@ -89,10 +89,10 @@
     background-color: #EE6AA7;
 }
 
-#page-login .voltar-home a
+#page-search-results .voltar-home a
 {
-    margin-top: 2px;
-    margin-left: 10px;
+    margin-top: -4px;
+    margin-left: 12px;
 
     display: flex;
     align-items: center;

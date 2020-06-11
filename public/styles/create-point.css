@@ -1,0 +1,211 @@
+#page-create-point
+{
+    width: 90%;
+    height: 100%;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#page-create-point header
+{
+    margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page-create-point header a
+{
+    width: 110px;
+    max-width: 360px;
+    height: 42px;
+    font-size: 6px;
+    
+    justify-content: center;
+    display: flex;
+    
+    font-weight: 700;
+    align-items: center;
+    
+    border-radius: 8px;
+
+    color: white;
+    font-weight: bold;
+    background: var(--login-color);
+
+    transition: 400ms;
+}
+
+#page-create-point header h3
+{
+    font-size: 36px;
+}
+
+#page-create-point header a:hover
+{
+    background-color: #EE6AA7;
+}
+
+#page-create-point header form .field
+{
+    display: flex;
+}
+
+#page-create-point header form input
+{
+    flex: 1;
+
+    color: #f0f0f5;
+
+    border-radius: 8px 0 0 8px;
+    border: 0;
+
+    padding: 10px 150px;
+
+    font-size: 16px;
+    color: #6c6c80;
+
+
+}
+
+#page-create-point header form button
+{
+    width: 48px;
+    height: 48px;
+
+    background-color: var(--button-color);
+
+    border: 0;
+    border-radius: 0 8px 8px 0;
+}
+
+#page-create-point form button:hover
+{
+    background-color: #0433BF;
+}
+
+#page-login .voltar-home a
+{
+    margin-top: -4px;
+    margin-left: 12px;
+    
+    display: flex;
+    align-items: center;
+}
+
+/*Tela de cadastro*/
+.form2
+{
+    background-color: white;
+    
+    margin: 80px auto;
+    padding: 52px;
+
+    border-radius: 8px;
+
+    max-width: 730px;
+}
+
+.form2 p
+{
+    position: absolute;
+    bottom: 32px;
+
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.form2 h1
+{
+
+    font-size: 42px;
+
+    position: absolute;
+
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.form2 fieldset
+{
+    margin: 80px;
+    border: 0;   
+}
+
+
+.form2 .field
+{
+    margin-top: 36px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.form2 .field-group
+{
+    display: flex;
+}
+
+.form2 input, .form2 select
+{
+    background-color: #D1EEEE;
+
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+
+    border-radius: 8px;
+}
+
+form section
+{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.form2 .field-group .field + .field
+{
+    margin-left: 12px;
+}
+
+.form2 button
+{
+    width: 260px;
+    height: 56px;
+
+    background-color: var(--login-color);
+    border-radius: 8px;
+
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+
+    border: 0;
+
+    margin-top: 40px;
+
+    transition: 400ms;
+
+    position: absolute;
+    bottom: 60px;
+
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+body .form2::after
+{
+    content: "";
+    position: fixed;
+    background: white;
+    top: 85px;
+    right: 0;
+    left: 0;
+    bottom:608px;
+    z-index: -1;    
+}
